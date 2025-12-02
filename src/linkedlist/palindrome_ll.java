@@ -37,6 +37,8 @@ public class palindrome_ll {
             slow = slow.next;
 
         }
+        slow= reverseList(slow);
+
         while (slow!=null){
             if(temp.val!=slow.val) return false;
             slow=slow.next;
