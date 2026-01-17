@@ -7,9 +7,15 @@ class Solution {
         int val;
         TreeNode left;
         TreeNode right;
-        TreeNode() {}
-        TreeNode(int val) { this.val = val; }
-        TreeNode(int val, TreeNode left,TreeNode right) {
+
+        TreeNode() {
+        }
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+
+        TreeNode(int val, TreeNode left, TreeNode right) {
             this.val = val;
             this.left = left;
             this.right = right;
@@ -53,24 +59,12 @@ class Solution {
                     q.offer(new Pair(curr.node.right, 2 * idx + 1));
             }
 
-            maxWidth = Math.max(maxWidth, (int)(last - first + 1));
+            maxWidth = Math.max(maxWidth, (int) (last - first + 1));
         }
 
         return maxWidth;
     }
 
-    public int widthOfinaryTree(TreeNode root) {
-
-    Queue<Pair> q = new LinkedList<>() ;
-    q.add(new Pair(root,0));
-     int width=0;
-        while(!q.isEmpty()){
-            int size = q.size();
-            long first=q.peek().idx;
-
-        }
-    }
 }
-
 
 
