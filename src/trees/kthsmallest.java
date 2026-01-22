@@ -18,7 +18,7 @@ public class kthsmallest {
 
     class Solution {
         public List <TreeNode> helper (TreeNode root ){
-            List<TreeNode> list = new Arraylist<>();
+            List<TreeNode> list = new LinkedList<>();
             if(root == null ) return list;
 
             helper(root.left);
