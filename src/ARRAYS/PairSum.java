@@ -1,4 +1,4 @@
-package basiofarraylist;
+package ARRAYS;
 
 import java.util.HashSet;
 

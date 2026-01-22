@@ -1,8 +1,7 @@
-package basiofarraylist;
+package ARRAYS;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Map;
 
 public class intersextionof2array {
     public  static int[] intersect(int[] nums1, int[] nums2) {

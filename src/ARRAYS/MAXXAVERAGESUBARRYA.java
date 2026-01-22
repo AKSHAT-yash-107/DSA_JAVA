@@ -1,4 +1,4 @@
-package basiofarraylist;
+package ARRAYS;
 
 public class MAXXAVERAGESUBARRYA {
     public static double findMaxAverage(int[] nums, int k) {
