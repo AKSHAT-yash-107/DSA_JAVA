@@ -20,7 +20,7 @@ public class inorderpredecessor {
 
 
 
-    public TreeNode inorder_successor(TreeNode root){
+    public TreeNode inorder_pred(TreeNode root){
         TreeNode pred = root.left;
         while(root.right!=null){
             pred= root.right;
@@ -28,7 +28,7 @@ public class inorderpredecessor {
         return pred;
     }
 
-    public TreeNode inorder_pred(TreeNode root){
+    public TreeNode inorder_succ(TreeNode root){
         TreeNode succ = root.right;
         while(root.left!=null){
             succ= root.left;
