@@ -1,6 +1,6 @@
 package trees;
 
-public class delete {
+public class delete_NODE_in_BST {
 
 
     public class TreeNode {
