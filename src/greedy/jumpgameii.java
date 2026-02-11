@@ -1,19 +1,8 @@
 package greedy;
 
-public class jumpgame {
+public class jumpgameii {
     class Solution {
-        public boolean canJump(int[] nums) {
-            int jump=0;
 
-            for(int i =0;i <nums.length;i++){
-                if(i>jump) return false;
-                jump=Math.max(jump,nums[i]+i);
-
-            }
-            return true;
-        }
-    }
-    class Solution2 {
         public int jump(int[] nums) {
 
             int jumps = 0;
@@ -33,6 +22,4 @@ public class jumpgame {
             return jumps;
         }
     }
-
 }
-
