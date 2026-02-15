@@ -44,7 +44,7 @@ public class flattenbt {
 
 
 
-    class Solution {
+    class Solution2 {
         public void flatten(TreeNode root) {
 
             TreeNode curr = root;
@@ -75,7 +75,7 @@ public class flattenbt {
 
 
 
-    class Solution {
+    class Solution3{
         public void flatten(TreeNode root) {
 
             TreeNode curr = root;
