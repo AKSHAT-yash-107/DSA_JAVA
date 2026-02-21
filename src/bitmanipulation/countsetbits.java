@@ -8,8 +8,8 @@ public class countsetbits {
             System.out.println(bit);
             n-=bit;
             count++;
-
         }
+
       System.out.println("total set bits ="+count);
 
     }
