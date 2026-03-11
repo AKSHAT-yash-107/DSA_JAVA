@@ -8,7 +8,7 @@ import java.util.List;
 public class GROUPANAGRAMS {
     public List<List<String>> groupAnagrams(String[] strs) {
         HashMap<String,List<String>> map= new HashMap<>();
-
+      
         for(String S : strs){
             char [] element = S.toCharArray();
             Arrays.sort(element);
